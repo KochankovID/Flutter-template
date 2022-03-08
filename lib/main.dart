@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
 
 void main() {
-  BlocFabric.initialize();
+  blocFactory();
   runApp(const MyApp());
 }
 
